@@ -1,0 +1,21 @@
+{
+  "name": "mis/board",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "elgar",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "silex/silex": "1.1",
+    "twig/twig": "1.3",
+    "phpunit/phpunit": "4.5.*",
+    "herrera-io/silex-pdo": "^1.2"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
